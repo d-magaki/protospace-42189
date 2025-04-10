@@ -14,9 +14,10 @@
 
 ### Association
 
-- has_many :prototypes, dependent: :destroy
-- has_many :comments, dependent: :destroy
-  
+- 
+- 
+- 
+
 ## prototypesテーブル
 
 | Column       | Type       | Options           |
@@ -28,10 +29,9 @@
 
 ### Association
 
-- belongs_to :user
-- has_one_attached :image
-- has_many :comments, dependent: :destroy
-
+- 
+- 
+- 
 
 ## commentsテーブル
 
@@ -43,6 +43,5 @@
 
 ### Association
 
-- belongs_to :user
-- belongs_to :prototype
-
+- 
+- 
